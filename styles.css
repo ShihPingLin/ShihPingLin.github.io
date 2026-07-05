@@ -458,13 +458,7 @@ h3 {
   }
 
   .hero-visual {
-    position: absolute;
-    right: 0;
-    bottom: 18px;
-    z-index: -1;
-    width: min(48vw, 420px);
-    opacity: 0.18;
-    pointer-events: none;
+    display: none;
   }
 
   .hero-visual::before {

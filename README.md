@@ -1,4 +1,4 @@
-# Shih-Ping Lin Personal Website
+# Shih-Ping Lin's Personal Website
 
 This is a bilingual static personal website built from the Chinese and English resumes.
 

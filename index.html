@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Shih-Ping Lin - software engineer focused on GPU server diagnostics, NPU performance analysis, automation, and full-stack engineering."
+    />
+    <title>Shih-Ping Lin | Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Shih-Ping Lin home">
+        <span class="brand-mark">SL</span>
+        <span class="brand-text" data-i18n="nav.name">林士平</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#experience" data-i18n="nav.experience">經歷</a>
+        <a href="#work" data-i18n="nav.work">作品</a>
+        <a href="#skills" data-i18n="nav.skills">技能</a>
+        <a href="#contact" data-i18n="nav.contact">聯絡</a>
+      </nav>
+
+      <div class="language-switch" role="group" aria-label="Language switcher">
+        <button class="language-option is-active" type="button" data-lang="zh">中文</button>
+        <button class="language-option" type="button" data-lang="en">EN</button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="hero.eyebrow">軟體工程師 - GPU 平台 - AI 加速器效能</p>
+          <h1 data-i18n="hero.title">把底層系統、AI 加速器效能與工程工具串成可靠產品。</h1>
+          <p class="hero-summary" data-i18n="hero.summary">
+            我是林士平，目前在 Google 做 GPU 伺服器平台診斷工具與穩定性驗證。過去在 MediaTek
+            深入 NPU 效能分析、KPI 指標設計與全端儀表板建置，喜歡把複雜系統問題拆成可觀測、可驗證、可自動化的工程流程。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#contact" data-i18n="hero.cta">聯絡我</a>
+            <a class="button secondary resume-link" href="./assets/林士平的履歷_202606.pdf" data-i18n="hero.resume">下載中文履歷</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Engineering systems illustration">
+          <img src="./assets/engineering-visual.png" alt="" />
+        </div>
+      </section>
+
+      <section class="metrics section-shell" aria-label="Highlights">
+        <article>
+          <span>50%</span>
+          <p data-i18n="metrics.runtime">GPU 溫度診斷工具執行時間降低</p>
+        </article>
+        <article>
+          <span>3x</span>
+          <p data-i18n="metrics.logs">Diagnostic log size reduction in one day</p>
+        </article>
+        <article>
+          <span>100+</span>
+          <p data-i18n="metrics.users">Dashboard 工具使用者人數</p>
+        </article>
+        <article>
+          <span>30-50%</span>
+          <p data-i18n="metrics.npu">NPU 多核心效能提升</p>
+        </article>
+      </section>
+
+      <section id="experience" class="section-shell content-section">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="experience.eyebrow">工作經驗</p>
+          <h2 data-i18n="experience.title">工程經歷</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-meta">
+              <span data-i18n="experience.google.period">2025 年 4 月 - 至今</span>
+              <strong data-i18n="experience.google.location">台北，台灣</strong>
+            </div>
+            <div class="timeline-body">
+              <h3 data-i18n="experience.google.company">台灣科高基礎設施有限公司 (Google) - 軟體工程師 II</h3>
+              <p data-i18n="experience.google.summary">
+                負責新一代 GPU 伺服器平台診斷工具 bring-up 與穩定性驗證，處理診斷工具、系統軟體、硬體與供應商之間的跨層問題。
+              </p>
+              <ul>
+                <li data-i18n="experience.google.point1">解決因 log 大小限制造成的生產阻塞，一天內將 log 縮小 3 倍並解除大規模部署阻礙。</li>
+                <li data-i18n="experience.google.point2">找出 GPU 溫度診斷工具的執行瓶頸，將執行時間降低 50%，每次約節省 30 分鐘。</li>
+                <li data-i18n="experience.google.point3">與 NVIDIA、硬體製造商及內部團隊合作，確保快速演進平台的診斷可靠性。</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-meta">
+              <span data-i18n="experience.mediatek.period">2022 年 9 月 - 2025 年 3 月</span>
+              <strong data-i18n="experience.mediatek.location">台北，台灣</strong>
+            </div>
+            <div class="timeline-body">
+              <h3 data-i18n="experience.mediatek.company">聯發科技股份有限公司 (MediaTek) - 工程師</h3>
+              <p data-i18n="experience.mediatek.summary">
+                專注 NPU 效能分析、架構分析工具與自動化平台，讓效能問題能被量測、拆解與持續追蹤。
+              </p>
+              <ul>
+                <li data-i18n="experience.mediatek.point1">發現 NPU 多核心擴展性問題，提升 30-50% 效能。</li>
+                <li data-i18n="experience.mediatek.point2">設計效能拆解演算法與 KPI 指標，支援架構分析與競品比較。</li>
+                <li data-i18n="experience.mediatek.point3">建置全端儀表板平台，讓 100+ 位工程師進行效能監控與分析。</li>
+                <li data-i18n="experience.mediatek.point4">自動化 C model 報告生成流程，將人工處理效率提升超過 10 倍。</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-meta">
+              <span data-i18n="experience.iii.period">2020 年 8 月 - 2021 年 1 月</span>
+              <strong data-i18n="experience.iii.location">台北，台灣</strong>
+            </div>
+            <div class="timeline-body">
+              <h3 data-i18n="experience.iii.company">資策會 - 研究計畫助理</h3>
+              <p data-i18n="experience.iii.summary">
+                建立機器學習即服務 (MLaaS) 網站系統，支援資料上傳、即時預測與模型增量更新。
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="work" class="section-shell content-section two-column">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="work.eyebrow">精選成果</p>
+          <h2 data-i18n="work.title">我擅長把研究、平台與產品需求落地。</h2>
+        </div>
+
+        <div class="work-grid">
+          <article class="work-card">
+            <span class="work-label" data-i18n="work.card1.label">系統可靠性</span>
+            <h3 data-i18n="work.card1.title">GPU 伺服器診斷工具建置</h3>
+            <p data-i18n="work.card1.body">在新硬體平台快速變動的環境中，建立診斷與驗證流程，讓大規模伺服器部署更可靠。</p>
+          </article>
+          <article class="work-card">
+            <span class="work-label" data-i18n="work.card2.label">AI 加速器效能</span>
+            <h3 data-i18n="work.card2.title">NPU 效能拆解分析</h3>
+            <p data-i18n="work.card2.body">設計效能拆解演算法與 KPI，協助架構分析、競品比較與大型模型 workload 評估。</p>
+          </article>
+          <article class="work-card">
+            <span class="work-label" data-i18n="work.card3.label">產品工程</span>
+            <h3 data-i18n="work.card3.title">效能監控儀表板平台</h3>
+            <p data-i18n="work.card3.body">從資料管線到前端視覺化建置儀表板，支援工程團隊日常監控與決策。</p>
+          </article>
+          <article class="work-card">
+            <span class="work-label" data-i18n="work.card4.label">網站專案</span>
+            <h3 data-i18n="work.card4.title">大台北找 YouBike</h3>
+            <p data-i18n="work.card4.body">整合 Google Maps 與 YouBike API，打造可查詢大台北站點資訊的 RWD 線上服務。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section-shell content-section skills-section">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="skills.eyebrow">技能</p>
+          <h2 data-i18n="skills.title">技術能力</h2>
+        </div>
+
+        <div class="skill-groups">
+          <article>
+            <h3 data-i18n="skills.languages">程式語言</h3>
+            <div class="tags">
+              <span>C++</span><span>C</span><span>Python</span><span>JavaScript</span><span>HTML</span><span>CSS</span><span>MATLAB</span>
+            </div>
+          </article>
+          <article>
+            <h3 data-i18n="skills.web">網站與平台</h3>
+            <div class="tags">
+              <span>Flask</span><span>Dash</span><span>React.js</span><span>Selenium</span><span>Docker</span><span>MongoDB</span><span>Apache</span><span>Gunicorn</span>
+            </div>
+          </article>
+          <article>
+            <h3 data-i18n="skills.ai">AI 與工具</h3>
+            <div class="tags">
+              <span data-i18n="skills.tag.deepLearning">深度學習</span><span>DARTS</span><span data-i18n="skills.tag.incrementalMl">增量式機器學習</span><span>MLaaS</span><span>PyTorch</span><span>scikit-learn</span><span>pandas</span><span>Linux</span><span>Git</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell content-section education-publication">
+        <article>
+          <p class="eyebrow" data-i18n="education.eyebrow">學歷</p>
+          <h2 data-i18n="education.title">學歷</h2>
+          <div class="compact-list">
+            <p data-i18n="education.ntu"><strong>國立台灣大學</strong> - 電機工程研究所計算機組碩士，GPA 4.20/4.30，排名 8/90</p>
+            <p data-i18n="education.nthu"><strong>國立清華大學</strong> - 電機工程學系學士，GPA 4.11/4.30，排名 8/112</p>
+          </div>
+        </article>
+
+        <article>
+          <p class="eyebrow" data-i18n="publication.eyebrow">論文發表</p>
+          <h2 data-i18n="publication.title">論文發表</h2>
+          <p data-i18n="publication.body">
+            SGAS-es: Avoiding Performance Collapse by Sequential Greedy Architecture Search with the Early Stopping Indicator.
+            發表於 FICC 2023，由 Springer Nature Switzerland 出版。
+          </p>
+        </article>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="section-shell contact-shell">
+          <div>
+          <p class="eyebrow" data-i18n="contact.eyebrow">聯絡</p>
+            <h2 data-i18n="contact.title">歡迎聊聊系統、AI 加速器效能或工程平台。</h2>
+          </div>
+          <div class="contact-actions">
+            <a class="button primary" href="mailto:tommy787576@gmail.com">tommy787576@gmail.com</a>
+            <a class="button secondary" href="https://www.linkedin.com/in/shih-ping-lin-bbb53b24b/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="button secondary" href="https://github.com/ShihPingLin" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span data-i18n="footer.text">Designed and built for Shih-Ping Lin.</span>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

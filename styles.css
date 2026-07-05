@@ -453,7 +453,8 @@ h3 {
 
   .hero {
     display: block;
-    min-height: calc(100vh - 180px);
+    min-height: auto;
+    padding: 42px 0 28px;
     overflow: hidden;
   }
 
@@ -497,7 +498,7 @@ h3 {
 
   .hero {
     display: block;
-    min-height: calc(100vh - 220px);
+    min-height: auto;
     padding: 30px 0 22px;
     overflow: hidden;
   }
